@@ -41,6 +41,10 @@ createApp({
   methods: {
     taskDone(index){
       this.objsList[index].done = !this.objsList[index].done
+    },
+
+    taskDelete(index){
+      this.objsList.splice(index , 1)
     }
   },
 }).mount('#app')
