@@ -35,6 +35,12 @@ createApp({
           done : false 
         },
       ]
+    };
+  },
+
+  methods: {
+    taskDone(index){
+      this.objsList[index].done = !this.objsList[index].done
     }
-  }
+  },
 }).mount('#app')
