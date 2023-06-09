@@ -8,6 +8,10 @@ body{
     background-color: aliceblue;
 }
 
+.min-width{
+    min-width: 420px;
+}
+
 .done-item{
     text-decoration: line-through;
 }
